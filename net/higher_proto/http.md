@@ -20,6 +20,9 @@ autonumber
 
 ### Kommunikation
 
+Annahme: der Host <var>Loki</var> wird im lokalen Netz aufgelöst zu der (Legacy) IP-Adresse <kbd>192.168.2.23</kbd>
+
+
 - HTTP-<var>Connect</var> zu <kbd>Loki</kbd> (IP:```192.168.2.23```) auf Port ```80``` (default) oder:
 
 
