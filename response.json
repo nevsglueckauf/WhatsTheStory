@@ -1,0 +1,98 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 84,
+            "title": "Frankenstein; Or, The Modern Prometheus",
+            "authors": [
+                {
+                    "name": "Shelley, Mary Wollstonecraft",
+                    "birth_year": 1797,
+                    "death_year": 1851
+                }
+            ],
+            "summaries": [
+                "\"Frankenstein; Or, The Modern Prometheus\" by Mary Wollstonecraft Shelley is a novel written in the early 19th century. The story explores themes of ambition, the quest for knowledge, and the consequences of man's hubris through the experiences of Victor Frankenstein and the monstrous creation of his own making.   The opening of the book introduces Robert Walton, an ambitious explorer on a quest to discover new lands and knowledge in the icy regions of the Arctic. In his letters to his sister Margaret, he expresses both enthusiasm and the fear of isolation in his grand venture. As Walton's expedition progresses, he encounters a mysterious, emaciated stranger who has faced great suffering—furthering the intrigue of his narrative. This stranger ultimately reveals his tale of creation, loss, and the profound consequences of seeking knowledge that lies beyond human bounds. The narrative is set up in a manner that suggests a deep examination of the emotions and ethical dilemmas faced by those who dare to defy the natural order. (This is an automatically generated summary.)"
+            ],
+            "translators": [],
+            "subjects": [
+                "Frankenstein's monster (Fictitious character) -- Fiction",
+                "Frankenstein, Victor (Fictitious character) -- Fiction",
+                "Gothic fiction",
+                "Horror tales",
+                "Monsters -- Fiction",
+                "Science fiction",
+                "Scientists -- Fiction"
+            ],
+            "bookshelves": [
+                "Browsing: Culture/Civilization/Society",
+                "Browsing: Fiction",
+                "Browsing: Gender & Sexuality Studies",
+                "Browsing: Literature",
+                "Browsing: Science-Fiction & Fantasy",
+                "Gothic Fiction",
+                "Movie Books",
+                "Precursors of Science Fiction",
+                "Science Fiction by Women"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/84.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/84.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/84.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/84.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/84/pg84.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/84/pg84-h.zip"
+            },
+            "download_count": 123552
+        },
+        {
+            "id": 11,
+            "title": "Alice's Adventures in Wonderland",
+            "authors": [
+                {
+                    "name": "Carroll, Lewis",
+                    "birth_year": 1832,
+                    "death_year": 1898
+                }
+            ],
+            "summaries": [
+                "\"Alice's Adventures in Wonderland\" by Lewis Carroll is a classic children's novel written in the mid-19th century. The story follows a young girl named Alice who, feeling bored and sleepy while sitting by a riverbank, encounters a White Rabbit and follows it down a rabbit hole, plunging into a fantastical world filled with curious creatures and whimsical adventures.  The opening of the book introduces Alice as she daydreams about her surroundings before spotting the White Rabbit, who is both flustered and animated. Curious, Alice pursues the Rabbit and finds herself tumbling down a deep rabbit hole, leading to a curious hall filled with doors, all locked. After experiencing a series of bizarre changes in size from eating and drinking mysterious substances, she begins exploring this new world, initially frustrated by her newfound challenges as she navigates her size and the peculiar inhabitants she meets. The narrative sets the tone for Alice's whimsical and often nonsensical adventures that characterize the entire tale. (This is an automatically generated summary.)"
+            ],
+            "translators": [],
+            "subjects": [
+                "Alice (Fictitious character from Carroll) -- Juvenile fiction",
+                "Children's stories",
+                "Fantasy fiction",
+                "Imaginary places -- Juvenile fiction"
+            ],
+            "bookshelves": [
+                "Browsing: Children & Young Adult Reading",
+                "Browsing: Fiction",
+                "Children's Literature"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/11.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/11.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/11.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/11.txt.utf-8",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/11.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/11/pg11.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/11/pg11-h.zip"
+            },
+            "download_count": 55110
+        }
+    ]
+}
