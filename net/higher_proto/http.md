@@ -86,7 +86,7 @@ Content-Length: 115
 ## HTTP Message (allgemein)
 
 ```
-{STATUS ZEILE}
+{REQUEST ZEILE} || {STATUS ZEILE}
 {HEADER_001}: WERT 1
 {HEADER_002}: WERT 2
     ...
@@ -178,6 +178,16 @@ Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
 #### CONNECT
 
 Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
+
+## Parameter - Übertragen von Daten
+
+Neben der Möglichkeit, Metainformationen per HTTP- Header zu übertragen, existieren sog. Parameter, als Schlüssel-Wert-Paare
+(```ke1=val```) zu senden:
+
+a. Per URI (getrennt durch "?") 
+b. Als Payload
+
+
 
 
 [^1]: hier: synonym für HTTP und HTTPs
