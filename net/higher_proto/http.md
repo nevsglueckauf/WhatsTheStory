@@ -33,7 +33,7 @@ Annahme: der Host <var>Loki</var> wird im lokalen Netz aufgelöst zu der (Legacy
 - HTTPS-<var>Connect</var> zu <kbd>Loki</kbd> (IP:```192.168.2.23```) auf Port ```443``` (default bei ```TCP```) oder:
 - HTTPS-<var>Connect</var> zu <kbd>Loki</kbd> (IP:```192.168.2.23```) auf Port ```488``` (default bei ```UDP```) oder:
 
-- <var>Connect</var> zu <kbd>Loki:__4711__</kbd> (IP:```192.168.2.23```) auf Port <b>```4711```</b>
+- HTTP*-<var>Connect</var> zu <kbd>Loki:__4711__</kbd> (IP:```192.168.2.23```) auf Port <b>```4711```</b>
 
 ## HTTP Beispiel Request Message ()
 Oben: Header Zeile(n)
