@@ -196,13 +196,13 @@ Mehrere <var>Key-Value-Pairs<var> werden durch ein <var>Ampersand</var>(```&```)
 
 ```name=Sven&location=DE&id=2305```
 
-Alternativ kann hierzu ein <var><b>?</b></var> verwendet werden:
+Alternativ kann hierzu ein <var><b>;</b></var> verwendet werden:
 
 ```location=DE;id=2305;name=Sven```
 
 #### Codierung von Parametern
 
-### Andere Wege der Datenmübertragung als Payload
+### Andere Wege der Datenübertragung als Payload
 
 #### JSON
 
