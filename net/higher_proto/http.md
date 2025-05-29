@@ -3,8 +3,8 @@
 ## Client-Server Kommunikation
 
 
-Beispiel einer HTTP-Kommunikation per ```PUT``` - Empfang einer Antwort als ```JSON```
-:
+Beispiel einer HTTP-Kommunikation per - Empfang einer Antwort als ```JSON```:
+
 - HTTP folgt dem Client-Server-Modell. Im Kontext von HTTP spricht man bei Anfragen <var>(Request)</var> und Antworten <var>(Response)</var> von <var>Message</var>
 - HTTP-<var>Requests</var>s benutzen sog. <var>[Methoden](#_methods)</var> (diese werden manchmal auch als „Verb“ bezeichnet)
 - HTTP benutzt <var>TCP</var> oder <var>UDP</var> zum [Transport](../transport.md)

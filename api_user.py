@@ -78,7 +78,7 @@ class GenericApiReader:
         return self
 
 
-class GutenbergApiSucker(GenericApiReader):
+class GutenbergApiUser(GenericApiReader):
     """  Konkrete API Klasse für Gutendex
         FIXME: Requests sind aus kommentiert!
     Args:
@@ -114,7 +114,7 @@ class GutenbergApiSucker(GenericApiReader):
         #return self.get(self.lst_req_uri)
 
 
-sucker = GutenbergApiSucker()
+sucker = GutenbergApiUser()
 #sucker.by_ids({55,66,77})
 sucker.search('Victor Hugo Notre Dame')
 print(sucker.lst_req_uri)
