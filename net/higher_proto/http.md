@@ -68,7 +68,7 @@ Unten: <var>Payload</var>
 ```
 HTTP/1.1 201 Created
 Cache-Control: no-cache
-Server: Loki (Pythonista Club DE-47445 aka Ütfor(t))
+Server: Loki (Pythonista Club NRW)
 Date: Wed Jul 4 15:31:53 2012
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
