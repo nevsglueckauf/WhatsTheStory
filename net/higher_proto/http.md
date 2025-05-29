@@ -186,8 +186,8 @@ Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
 Neben der Möglichkeit, Metainformationen per HTTP- Header zu übertragen, existieren sog. Parameter, als Schlüssel-Wert-Paare
 (```key=val```) zu senden:
 
-A. Per URI (getrennt durch "?") ```https://loki/API/Foo?key=val```
-B. Als Payload ```key=val```
+1. Per URI (getrennt durch "?") ```https://loki/API/Foo?key=val```
+2. Als Payload ```key=val```
 
 Mehrer <var>Key-Value<-Pairs<var> werden durch ein <var>Ampersand</var>(```&```) verknüft:
 ```name=Sven&location=DE&id=2305```
