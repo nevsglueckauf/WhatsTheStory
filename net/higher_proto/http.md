@@ -189,8 +189,13 @@ Neben der Möglichkeit, Metainformationen per HTTP- Header zu übertragen, exist
 1. Per URI (getrennt durch "?") ```https://loki/API/Foo?key=val```
 2. Als Payload ```key=val```
 
-Mehrer <var>Key-Value<-Pairs<var> werden durch ein <var>Ampersand</var>(```&```) verknüft:
+Mehrere <var>Key-Value-Pairs<var> werden durch ein <var>Ampersand</var>(```&```) verbunden:
+
 ```name=Sven&location=DE&id=2305```
+
+Alternativ kann hierzu ein <var><b>?</b></var> verwendet werden:
+
+```location=DE;id=2305;name=Sven```
 
 #### Codierung von Parametern
 
