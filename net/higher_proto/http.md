@@ -25,6 +25,9 @@ autonumber
 
 Annahme: der Host <var>Loki</var> wird im lokalen Netz aufgelöst zu der (Legacy) IP-Adresse <kbd>192.168.2.23</kbd>
 
+#### Beispiele für Sockets
+
+Einige Beispiel-[Sockets](../tcp_ip.md#socket):
 
 - HTTP-<var>Connect</var> zu <kbd>Loki</kbd> (IP:```192.168.2.23```) auf Port ```80``` (default) oder:
 
