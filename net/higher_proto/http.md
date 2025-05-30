@@ -197,7 +197,7 @@ Neben der Möglichkeit, Metainformationen per HTTP- Header zu übertragen, exist
 1. Per <kbd>URI</kbd> (getrennt durch "?") ```https://loki/API/Foo?key=val```
 2. Als Payload ```key=val```
 
-Mehrere <var>Key-Value-Pairs<var> werden durch ein <var>Ampersand</var>(```&```) verbunden:
+Mehrere <var>Key-Value-Pairs<var> werden durch ein <var>Ampersand</var>(oder "kaufmännisches Und" -  ```&```) verbunden:
 
 ```name=Sven&location=DE&id=2305```
 
@@ -210,6 +210,9 @@ und ggf. codiert.
 
 #### Codierung von Parametern
 
+
+Bei der Übertragung von Werten, welche im Kontext einer <var>URI</> besondere Bedeutung haben, müssen diese mit der sogenannten [URL-Codierung](../../html.md#UriCodierung) versehen werden. 
+Beispiel: ```Sugar & Cinnamon```enthalten ein <var>Ampersand</var>(```&```) sowie  Leerzeichen ``` ```  und werden zu ```?t=Sugar+%26+Cinnamon``` codiert
 
 ### Andere Wege der Datenübertragung als Payload
 
