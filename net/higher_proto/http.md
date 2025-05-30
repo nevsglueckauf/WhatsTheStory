@@ -218,7 +218,7 @@ Beispiel: ```Sugar & Cinnamon```enthalten ein <var>Ampersand</var>(```&```) sowi
 
 #### JSON
 
-### Sonstiges
+#### Sonstiges
     - XML
     - SOAP
     - Andereres
