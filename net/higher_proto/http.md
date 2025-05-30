@@ -138,11 +138,16 @@ Die Methode <var>POST</var> ist <u>nicht</u> <var>idempotent</var>, sondern sorg
 
 
 ```POST /Api/Entry/items/new HTTP/1.1```   -> Neue Ressource
+
 ```POST /Api/Entry/items/ HTTP/1.1```   -> 2. neue Ressource
+
 ```POST /Api/Entry/items/HTTP/1.1```   -> 3. neue Ressource
 
+
 ```DELETE /Api/Entry/items/42/delete HTTP/1.1``` ist idempotent, auch wenn der zurückgegebene Statuscode zwischen den Anfragen variieren kann:
+
 ```DELETE /Api/Entry/items/42/delete HTTP/1.1```   ->  200 falls Ressource existiert
+
 ```DELETE /Api/Entry/items/42/delete HTTP/1.1```   -> 404 falls Ressource nicht existiert 
 
 #### GET:
@@ -196,7 +201,7 @@ Mehrere <var>Key-Value-Pairs<var> werden durch ein <var>Ampersand</var>(```&```)
 
 ```name=Sven&location=DE&id=2305```
 
-Alternativ kann hierzu ein <var><b>;</b></var> verwendet werden:
+Alternativ kann hierzu ein <var>Semikolon</var> <var><b>;</b></var> verwendet werden:
 
 ```location=DE;id=2305;name=Sven```
 
