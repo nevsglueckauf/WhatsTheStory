@@ -186,10 +186,10 @@ Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
 
 ### HTTP Parameter
 
-Neben der Möglichkeit, Metainformationen per HTTP- Header zu übertragen, existieren sog. Parameter, als Schlüssel-Wert-Paare
-(```key=val```) zu senden:
+Neben der Möglichkeit, Metainformationen per HTTP- Header zu übertragen, existieren sog. Parameter als Schlüssel-Wert-Paare
+(```key=val```) um Daten zu senden:
 
-1. Per URI (getrennt durch "?") ```https://loki/API/Foo?key=val```
+1. Per <kbd>URI</kbd> (getrennt durch "?") ```https://loki/API/Foo?key=val```
 2. Als Payload ```key=val```
 
 Mehrere <var>Key-Value-Pairs<var> werden durch ein <var>Ampersand</var>(```&```) verbunden:
@@ -200,7 +200,11 @@ Alternativ kann hierzu ein <var><b>;</b></var> verwendet werden:
 
 ```location=DE;id=2305;name=Sven```
 
+Diese Parameter werden entweder als Teil der <var>URI</var> (z.B: bei <var>GET</var>, <var>DELETE</var>) oder als <var>Payload</var> (z.B: bei <var>PUT</var>, <var>POST</var>) gesendet
+und ggf. codiert.
+
 #### Codierung von Parametern
+
 
 ### Andere Wege der Datenübertragung als Payload
 
