@@ -3,7 +3,7 @@
 ## Client-Server Kommunikation
 
 
-Beispiel einer HTTP-Kommunikation per - Empfang einer Antwort als ```JSON```:
+Beispiel einer HTTP-Kommunikation Anfrage - Empfang einer Antwort als ```JSON```:
 
 - HTTP folgt dem [Client-Server-Model](../client_server_model.md). Im Kontext von HTTP spricht man bei Anfragen von <var>(Request)</var> und Antworten <var>(Response)</var> von <var>Message</var>
 - HTTP-<var>Requests</var>s benutzen sog. <var>[Methoden](#_methods)</var> (diese werden manchmal auch als „Verb“ bezeichnet - nicht von mir hier)
@@ -38,7 +38,7 @@ Einige Beispiel-[Sockets](../tcp_ip.md#socket):
 
 - HTTP*-<var>Connect</var> zu <kbd>Loki:__4711__</kbd> (IP:```192.168.2.23```) auf Port <b>```4711```</b>
 
-## HTTP Beispiel Request Message ()
+## HTTP Beispiel Request Message
 Oben: Header Zeile(n)
 
 <kbd title="Carriage Return">CR</kbd>+<kbd title="LineFeed">LF</kbd>+<kbd title="Carriage Return">CR</kbd>+<kbd title="LineFeed">LF</kbd> aka ```\r\n\r\n```
