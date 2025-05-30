@@ -6,7 +6,7 @@
 Beispiel einer HTTP-Kommunikation per - Empfang einer Antwort als ```JSON```:
 
 - HTTP folgt dem Client-Server-Modell. Im Kontext von HTTP spricht man bei Anfragen <var>(Request)</var> und Antworten <var>(Response)</var> von <var>Message</var>
-- HTTP-<var>Requests</var>s benutzen sog. <var>[Methoden](#_methods)</var> (diese werden manchmal auch als „Verb“ bezeichnet)
+- HTTP-<var>Requests</var>s benutzen sog. <var>[Methoden](#_methods)</var> (diese werden manchmal auch als „Verb“ bezeichnet - nicht von mir hier)
 - HTTP benutzt <var>TCP</var> oder <var>UDP</var> zum [Transport](../transport.md)
 - HTTP ist <var>zustandslos</var>
 
