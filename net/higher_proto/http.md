@@ -124,7 +124,9 @@ Content-Length: 115
 ```
 
 
-### <a name="_methods">Methods</a>
+### <a name="_methods">Methoden</a>
+
+Ein Request verwendet eine der nachfolgend beschriebenen Methoden (ich nenne die hier absichtlich <u>nicht</u> Verben)
 
 #### Idempotenz 
 
@@ -151,8 +153,7 @@ Die Methode <var>POST</var> ist <u>nicht</u> <var>idempotent</var>, sondern sorg
 ```DELETE /Api/Entry/items/42/delete HTTP/1.1```   -> 404 falls Ressource nicht existiert 
 
 #### GET:
-
-[S.a](GET/wiki/HTTP/Anfragemethoden#GET) 
+ 
 
 Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
 
