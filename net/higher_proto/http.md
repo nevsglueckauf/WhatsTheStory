@@ -5,7 +5,7 @@
 
 Beispiel einer HTTP-Kommunikation per - Empfang einer Antwort als ```JSON```:
 
-- HTTP folgt dem Client-Server-Modell. Im Kontext von HTTP spricht man bei Anfragen <var>(Request)</var> und Antworten <var>(Response)</var> von <var>Message</var>
+- HTTP folgt dem [Client-Server-Modell]((../client_server_model.md)). Im Kontext von HTTP spricht man bei Anfragen <var>(Request)</var> und Antworten <var>(Response)</var> von <var>Message</var>
 - HTTP-<var>Requests</var>s benutzen sog. <var>[Methoden](#_methods)</var> (diese werden manchmal auch als „Verb“ bezeichnet - nicht von mir hier)
 - HTTP benutzt <var>TCP</var> oder <var>UDP</var> zum [Transport](../transport.md)
 - HTTP ist <var>zustandslos</var>
@@ -15,7 +15,7 @@ Beispiel einer HTTP-Kommunikation per - Empfang einer Antwort als ```JSON```:
 ```mermaid
 sequenceDiagram
 autonumber
-    User-Agent->>Webserver: http://Loki/Api/Entry/items/new (PUT)
+    User-Agent->>Webserver: http://Loki/Api/Entry/items/new (via {METHODE})
     Webserver->>User-Agent: HTTP-Response (JSON Payload)
 
 ```
