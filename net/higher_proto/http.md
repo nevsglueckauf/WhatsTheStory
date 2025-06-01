@@ -16,9 +16,9 @@ Beispiel einer HTTP-Kommunikation Anfrage - Empfang einer Antwort als ```JSON```
 sequenceDiagram
 autonumber
     
-    User-Agent->>Webserver: http://Loki/Api/Entry/items/new (via {METHODE})
+    User-Agent->>Webserver: http://Loki/Api/Entry/items/new     (via {METHODE}*)
     Webserver->>User-Agent: HTTP-Response (JSON Payload)
-    Note over User-Agent, Webserver:  <small>{METHODE}: GET, POST, HEAD, PUT, DELETE ...</small>
+    Note over User-Agent, Webserver:  *{METHODE}: GET, POST, HEAD, PUT, DELETE etc.
 ```
 
 
