@@ -1,6 +1,7 @@
 # TCP/IP
 
-PLACEHOLDER File - wird sukzessiv ergänzt
+## 
+
 
 ## Schichtsache(n)
 ```mermaid
@@ -18,6 +19,7 @@ flowchart TD
 ```
 ## TCP/IP en detail
 
+![Schichten: Header - Payload](../data/schichtent.gof)
 
 ### <a name="transport">Transport</a>
 
