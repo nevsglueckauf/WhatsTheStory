@@ -19,6 +19,9 @@ flowchart TD
 ```
 ## TCP/IP en detail
 
+
+![TCP/IP Stack:](../data/tcpstac.gif)
+
 ![Schichten: Header - Payload](../data/schichten.gif)
 
 ### <a name="transport">Transport</a>
