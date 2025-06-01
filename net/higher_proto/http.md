@@ -15,10 +15,10 @@ Beispiel einer HTTP-Kommunikation Anfrage - Empfang einer Antwort als ```JSON```
 ```mermaid
 sequenceDiagram
 autonumber
-    Note over User-Agent, Webserver:  {METHODE}: GET, POST, HEAD, PUT, PATCH, DELETE, TRACE, OPTIONS, CONNECT
+    
     User-Agent->>Webserver: http://Loki/Api/Entry/items/new (via {METHODE})
     Webserver->>User-Agent: HTTP-Response (JSON Payload)
-
+    Note over User-Agent, Webserver:  <small>{METHODE}: GET, POST, HEAD, PUT, DELETE ...</small>
 ```
 
 

@@ -2,7 +2,7 @@
 
 PLACEHOLDER File - wird sukzessiv ergänzt
 
-## Überstunden? Schichtsache
+## Schichtsache(n)
 ```mermaid
 flowchart TD
     
