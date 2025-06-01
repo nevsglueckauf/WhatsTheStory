@@ -15,6 +15,7 @@ Beispiel einer HTTP-Kommunikation Anfrage - Empfang einer Antwort als ```JSON```
 ```mermaid
 sequenceDiagram
 autonumber
+    Note over User-Agent, Webserver:  {METHODE}: GET, POST, HEAD, PUT, PATCH, DELETE, TRACE, OPTIONS, CONNECT
     User-Agent->>Webserver: http://Loki/Api/Entry/items/new (via {METHODE})
     Webserver->>User-Agent: HTTP-Response (JSON Payload)
 
@@ -153,44 +154,57 @@ Die Methode <var>POST</var> ist <u>nicht</u> <var>idempotent</var>, sondern sorg
 ```DELETE /Api/Entry/items/42/delete HTTP/1.1```   -> 404 falls Ressource nicht existiert 
 
 #### GET:
- 
+Abfrage einer Resosurce vom Server - [optionale Parameter](#params) werden an die URI angehängt und sind Bestandteil der URL. Eine Längenbschränkung ist nicht durch die Spezifikation
+vorgegeben, aber die unterschiedlichen Implementationen haben ein solche (z.B: 256 Bytes, 1KB, 16KB ..)
 
-Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
+Weitere Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
 
 #### POST
+Mit der POST-Methode können Sie größere Datenmengen an den Server gesendet. Parameter werden codiert an den Header angehängt und sind somit Teil der Payload
 
-Erklärung folgt: __Wichtig__ --> <u>nicht</u> <i>idempotent</i>
+__Wichtig__ --> <u>nicht</u> <i>idempotent</i>
 
 #### HEAD
 
-Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
+Es weird nur der HEADER vom Server abgerufen -> z.B. um die letzte Änderung zu checken.
 
 #### PUT
 
-Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
+Hierbei können bestehende Ressourcen modifiziert werden. __Wichtig__ --> <i>idempotent</i> 
+
+
 
 ####  PATCH
 
-Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
+
+Weitere Erklärung folgt (Implemntierungsdtails; Platzierung (put) an adressierte Stelle ohn Script)
+Ändert ein bestehendes Dokument ohne dieses wie bei der PUT-Methode vollständig zu ersetzen
+
+Weitere Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
+
+- [RFC 6902](https://tools.ietf.org/html/rfc6902)
+- [RFC 5261](https://tools.ietf.org/html/rfc5261)
 
 #### DELETE
-
-Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
+Löscht eine benante  Ressource auf dem Server. 
+Weitere Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
 
 #### TRACE
 
-Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
+Weitere Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
 
 #### OPTIONS
-Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
+
+Bezieht eine Liste der vom Server unterstützen Methoden und sonstiger Informationen 
+Weitere Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
 
 #### CONNECT
 
-Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
+Weitere Erklärung folgt: __Wichtig__ --> <i>idempotent</i>
 
 ## Übertragen von Daten / Information
 
-### HTTP Parameter
+### <a name="params">HTTP Parameter</a> 
 
 Neben der Möglichkeit, Metainformationen per HTTP- Header zu übertragen, existieren sog. Parameter als Schlüssel-Wert-Paare
 (```key=val```) um Daten zu senden:
@@ -208,6 +222,10 @@ Alternativ kann hierzu ein <var>Semikolon</var> <var><b>;</b></var> verwendet we
 
 Diese Parameter werden entweder als Teil der <var>URI</var> (z.B: bei <var>GET</var>, <var>DELETE</var>) oder als <var>Payload</var> (z.B: bei <var>PUT</var>, <var>POST</var>) gesendet
 und ggf. codiert.
+
+####
+
+Artikel auf [treehouse](https://blog.teamtreehouse.com/the-definitive-guide-to-get-vs-post)
 
 #### Codierung von Parametern
 
