@@ -19,7 +19,7 @@ flowchart TD
 ```
 ## TCP/IP en detail
 
-![Schichten: Header - Payload](../data/schichtent.gof)
+![Schichten: Header - Payload](../data/schichten.gif)
 
 ### <a name="transport">Transport</a>
 
