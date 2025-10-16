@@ -10,7 +10,11 @@ config:
 ---
 sequenceDiagram
 autonumber
-    participant UserAgent@{ "type" : "boundary"}
+    box lightgray Clients
+      participant UserAgent@{ "type" : "boundary"}
+      participant Browser@{ "type" : "boundary"}
+      participant HttpClientBot@{ "type" : "boundary"}
+    end
     box yellow Backend
       participant Webserver@{ "type" : "control" }
       participant ApplicationServer@{ "type" : "queue" }
