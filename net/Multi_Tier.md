@@ -1,6 +1,5 @@
 # Multi Tier Architektur 
 
-## Client-Server Model
 
 
 ```mermaid
