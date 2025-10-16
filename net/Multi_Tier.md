@@ -12,14 +12,16 @@ config:
 sequenceDiagram
 autonumber
     participant UserAgent@{ "type" : "boundary"}
-    participant Webserver@{ "type" : "control" }
-    participant ApplicationServer@{ "type" : "queue" }
-    participant RDBMS@{ "type" : "database" }
+    box yellow Backend
+      participant Webserver@{ "type" : "control" }
+      participant ApplicationServer@{ "type" : "queue" }
+      participant RDBMS@{ "type" : "database" }
+    end
     UserAgent->>Webserver: http://Loki/Api/Entry/items/new 
     Webserver->>ApplicationServer: Hole Daten zu Produkt ABC
     ApplicationServer->>RDBMS:SQL
-    RDBMS->>ApplicationServer:Liefeer Daten
-    ApplicationServer->>Webserver: Liefert Daten (z.B: Prudktdaten aus DB + weitere Berechnungen)
+    RDBMS->>ApplicationServer:Liefere Daten
+    ApplicationServer->>Webserver: Liefert Daten (z.B: Produktdaten aus DB + weitere Berechnungen)
     Webserver->>UserAgent: HTTP Response (JSON Payload oder HTML Payload etc.)
     
 ```
