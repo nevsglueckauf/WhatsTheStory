@@ -11,9 +11,7 @@ config:
 sequenceDiagram
 autonumber
     box lightgray Clients
-      participant UserAgent@{ "type" : "boundary"}
-      participant Browser@{ "type" : "boundary"}
-      participant HttpClientBot@{ "type" : "boundary"}
+      participant UserAgent@{ "type" : "collections" }
     end
     box yellow Backend
       participant Webserver@{ "type" : "control" }
